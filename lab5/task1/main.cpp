@@ -326,7 +326,7 @@ int main()
     if (!people.empty())
     {
         people[0].form = 1; // Изменение класса первого ученика
-        Person newPerson = { "Petea", 5, Gender::Boy };
+        Person newPerson = { "Vasilisk", 5, Gender::Boy };
         people.push_back(newPerson); // Добавление нового ученика
     }
 
