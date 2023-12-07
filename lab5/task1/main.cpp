@@ -249,8 +249,8 @@ int main()
 
     std::cout << "Рандомные данные сгенерировались и внесены в data.csv." << std::endl;
 
-    Person person1 = { "Lera", 10, Gender::Girl };
-    Person person2 = { "Vasea", 12, Gender::Boy };
+    Person person1 = { "Bebrina", 10, Gender::Girl };
+    Person person2 = { "Megaman", 12, Gender::Boy };
 
     serializePeople({ person1, person2 }, outFile);
 
